@@ -3,6 +3,7 @@
 import re
 
 
+
 def re_examples():
     # email
     simple_email_regex = re.compile("\w+@(\w+\.)+\w+")
