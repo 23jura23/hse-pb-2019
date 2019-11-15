@@ -3,6 +3,7 @@ import collections
 import sys
 
 
+
 Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_name', 'facts'])
 people = [
     Person(github_login='23jura23', first_name='y0urass', last_name="or not your's",
