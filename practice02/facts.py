@@ -5,8 +5,14 @@ import sys
 
 Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_name', 'facts'])
 people = [
+<<<<<<< HEAD
     Person(github_login='23jura23', first_name='y0urass', last_name="or not your's",
            facts=['I l1ke you <3', 'This statement is false', 'Я люблю прогать на Питоге']),
+    Person(github_login='example', first_name='Name', last_name='Surname',
+           facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
+    Person(github_login='gt22', first_name='Igor', last_name='Engel',
+           facts=['Питонячу где хочу', 'Люблю svn', 'MLкаю в свободное время (которого нет)']),
+>>>>>>> master
 ]
 
 answers = {}
